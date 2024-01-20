@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef } from "react";
 import QUESTIONS from "../questions.js";
 import Question from "./Question.jsx";
-import Summary from "./summary.jsx";
+import Summary from "./Summary.jsx";
 
 export default function Quiz() {
   const [userAnswers, setUserAnswers] = useState([]);
